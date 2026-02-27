@@ -107,7 +107,8 @@ export default function App() {
           <div className="lg:col-span-2 space-y-4">
             <div className="bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
               <div className="grid grid-cols-12 gap-4 p-4 bg-slate-50 border-bottom border-slate-200 text-xs font-bold uppercase tracking-wider text-slate-500">
-                <div className="col-span-5 md:col-span-6">Subject Name</div>
+                <div className="col-span-1">No.</div>
+                <div className="col-span-4 md:col-span-6">Subject Name</div>
                 <div className="col-span-3 md:col-span-2 text-center">Grade</div>
                 <div className="col-span-3 md:col-span-2 text-center">Credits</div>
                 <div className="col-span-1 text-right"></div>
@@ -123,7 +124,10 @@ export default function App() {
                       exit={{ opacity: 0, scale: 0.95 }}
                       className="grid grid-cols-12 gap-4 p-4 items-center group"
                     >
-                      <div className="col-span-5 md:col-span-6">
+                      <div className="col-span-1 text-xs font-bold text-slate-400">
+                        {index + 1}
+                      </div>
+                      <div className="col-span-4 md:col-span-6">
                         <input
                           type="text"
                           placeholder="e.g. Mathematics II"
