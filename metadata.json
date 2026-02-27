@@ -1,0 +1,5 @@
+{
+  "name": "GradePoint CGPA Calculator",
+  "description": "A clean and efficient university grade point calculator with customizable subjects, grades, and credit hours.",
+  "requestFramePermissions": []
+}
